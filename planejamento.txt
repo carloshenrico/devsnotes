@@ -8,7 +8,7 @@ O que o projeto precisa fazer?
 - Inserir uma anotação nova
 - Atualizar uma anotação
 - Deletar uma anotação
-
+ 
 Qual a estrutura de dados?
 
 - local para armazenar as anotações
@@ -20,8 +20,8 @@ Quais os endpoints?
 
 - (METODO) /url (PARAMETROS)
 
-- (GET) /api/notes
-- (GET) /api/note/id
-- (POST) /api/note (TITLE, BODY)
-- (PUT) /api/note/id (TITLE, BODY)
-- (DELETE) /api/note/id
+- (GET) /api/notes - /api/getall.php
+- (GET) /api/note/id - /api/get.php?id=123
+- (POST) /api/note (TITLE, BODY) - /api/insert.php
+- (PUT) /api/note/id (TITLE, BODY) /api/update.php?id=123
+- (DELETE) /api/note/id - /api/delete.php (ID)
