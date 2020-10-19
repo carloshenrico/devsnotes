@@ -1,1 +1,1 @@
-"# devsnotes" 
+DEVSNOTES: (Sistema de anotações simples)
